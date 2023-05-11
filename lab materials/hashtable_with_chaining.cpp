@@ -64,7 +64,7 @@ struct HashTable{
         if(empty)
             cout<<"User_name not found."<<endl;
         else{
-            password->search(user_name);
+            password[hash].search(user_name);
         }
     }
 };
